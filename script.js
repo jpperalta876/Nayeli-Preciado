@@ -3,6 +3,7 @@ const noBtn = document.getElementById("noBtn");
 const gif = document.getElementById("gifContainerImg");
 const question = document.getElementById("question");
 const message = document.getElementById("messageContainer");
+const foto = document.getElementById("fotoFinal");
 
 let noCount = 0;
 
@@ -30,4 +31,5 @@ siBtn.addEventListener("click", () => {
     question.style.display = "none";
     document.querySelector(".buttons").style.display = "none";
     message.innerHTML = "Sabía que dirías que sí 🥹❤️ Te quiero muchísimo Nayeli 💖";
+    foto.style.display = "block";
 });
